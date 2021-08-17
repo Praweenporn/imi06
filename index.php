@@ -3,8 +3,6 @@
   div1 {
   background-color: lightblue;   
   position: relative;
-  width: 420px;
-  height: 100px;
   font-size: 30px;
   left: 100px;
   top: 50px;
@@ -12,8 +10,6 @@
   div2 {
   background-color: lightblue; 
   position: relative;
-  width: 420px;
-  height: 100px;
   font-size : 30px;
   left: 300px;
   top: 50px;
