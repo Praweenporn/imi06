@@ -8,6 +8,7 @@
   height: 260px;
 }
 </style>
+
 <body>
 <h1> Prweenporn Mathurot </h1>
 <h1 align="center">Monitor temp & humidity </h1>
@@ -18,7 +19,7 @@
     <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show"></iframe></td>
     </tr> 
  </table>
-    <div> <?php echo .$humidity?></div>
+    <div> <?php echo $humidity?></div>
 </body>
 
 <?php
