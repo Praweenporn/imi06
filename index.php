@@ -1,7 +1,13 @@
 <style type="text/css">
   body { background-color: #ffffff; }
+  div {
+  background-color: DodgerBlue;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  }
 </style>
-<BODY>
+<body>
 <h1> Prweenporn Mathurot </h1>
 <h1 align="center">Monitor temp & humidity </h1>
 <table align="center">
@@ -11,14 +17,16 @@
     <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show"></iframe></td>
     </tr>
  </table>
-</BODY>
+</body>
 
 <?php
 
-$temp = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
+$temperture = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
- echo "temp is = ".$temp."<br>";
- echo "humidity is = ".$humidity;
+ <div> echo $humidity </din>
+
+ echo "humidity is =""<br>";
+ echo "temperture is = ".$temp;
 
 ?>
