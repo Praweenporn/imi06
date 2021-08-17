@@ -4,14 +4,14 @@
   background-color: lightblue;   
   position: relative;
   font-size: 30px;
-  left: 100px;
+  left: 150px;
   top: 50px;
  }
   div2 {
   background-color: lightblue; 
   position: relative;
   font-size : 30px;
-  left: 300px;
+  left: 400px;
   top: 50px;
 }
 </style>
@@ -32,7 +32,10 @@
 
 <?php
 
-$humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
+$humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/widgets/348521');
+  /*thingspeak.com/channels/1458414/widgets/348521
+  thingspeak.com/channels/1458414/fields/1/last.txt
+  */
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
