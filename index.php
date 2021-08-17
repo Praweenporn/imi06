@@ -4,14 +4,14 @@
   background-color: lightblue;   
   font-size: 40px;
   position: relative;
-  left: 80px;
+  left: 130px;
   top: 50px;
  }
   div2 {
   background-color: lightblue;   
   position: relative;
   font-size : 40px;
-  left: 550px;
+  left: 520px;
   top: 50px;
 }
 </style>
