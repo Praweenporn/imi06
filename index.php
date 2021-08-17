@@ -6,7 +6,7 @@
   width: 420px;
   height: 100px;
   font-size: 40px;
-  left: 80px;
+  left: 100px;
   top: 50px;
  }
   div2 {
@@ -15,7 +15,7 @@
   width: 420px;
   height: 100px;
   font-size : 40px;
-  left: 400px;
+  left: 300px;
   top: 50px;
 }
 </style>
