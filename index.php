@@ -2,7 +2,7 @@
   body { background-color: #ffffff; }
   div {
   background-color: lightblue;
-  padding-top: 50px;
+  padding-top: 90px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
@@ -17,10 +17,8 @@
   <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
     <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show"></iframe></td>
     </tr> 
- 
-  <div><?php echo $humidity?></div>
-  
  </table>
+    <div><?php echo $humidity?></div>
 </body>
 
 <?php
