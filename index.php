@@ -2,13 +2,16 @@
   body { background-color: #ffffff; }
   div1 {
   background-color: lightblue;   
+    width: 420px;
+  height: 100px;
   font-size: 40px;
-  position: relative;
-  left: 130px;
+  left: 180px;
   top: 50px;
  }
   div2 {
-  background-color: lightblue;   
+  background-color: lightblue; 
+    width: 420px;
+  height: 100px;
   position: relative;
   font-size : 40px;
   left: 520px;
