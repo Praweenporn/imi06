@@ -4,7 +4,7 @@
   background-color: lightblue;   
   position: relative;
   left: 16px;
-  width: 400px;
+  width: 250px;
   height: 260px;
 }
 </style>
@@ -23,9 +23,9 @@
 
 <?php
 
-$temperture = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
+$temp = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
- echo "temperture is = ".$temperture;
+ echo "temperture is = ".$temp;
 
 ?>
  <div> <?php echo $humidity?></div>
