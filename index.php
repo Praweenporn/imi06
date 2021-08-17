@@ -23,10 +23,10 @@
 
 <?php
 
-$temp = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
-$humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
+$humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
+$temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
  <div> <?php echo $humidity?> 
-      <?php echo $temp?>
+      <?php echo $temperature?>
 </div>
