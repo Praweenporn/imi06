@@ -5,7 +5,7 @@
   position: relative;
   width: 420px;
   height: 100px;
-  font-size: 40px;
+  font-size: 30px;
   left: 100px;
   top: 50px;
  }
@@ -14,7 +14,7 @@
   position: relative;
   width: 420px;
   height: 100px;
-  font-size : 40px;
+  font-size : 30px;
   left: 300px;
   top: 50px;
 }
@@ -27,7 +27,9 @@
 <tr algin="center">
  <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
   <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
-    <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show"></iframe></td>
+    <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show">
+      <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://api.thingspeak.com/channels/1458414/status.json">
+      </iframe></td>
     </tr> 
  </table>
 </body>
