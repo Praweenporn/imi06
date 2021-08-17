@@ -19,15 +19,13 @@
     <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show"></iframe></td>
     </tr> 
  </table>
-    <div> <?php echo $humidity?></div>
 </body>
 
 <?php
 
 $temperture = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
-
-
  echo "temperture is = ".$temperture;
 
 ?>
+ <div> <?php echo $humidity?></div>
