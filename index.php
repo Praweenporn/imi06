@@ -2,7 +2,8 @@
   body { background-color: #ffffff; }
   div1 {
   background-color: lightblue;   
-    width: 420px;
+  position: relative;
+  width: 420px;
   height: 100px;
   font-size: 40px;
   left: 180px;
@@ -10,9 +11,9 @@
  }
   div2 {
   background-color: lightblue; 
-    width: 420px;
-  height: 100px;
   position: relative;
+  width: 420px;
+  height: 100px;
   font-size : 40px;
   left: 520px;
   top: 50px;
@@ -21,7 +22,7 @@
 
 <body>
 <h1> Prweenporn Mathurot </h1>
-<h1 align="center">Monitor temp & humidity </h1>
+<h1 align="center">Monitor temperature & humidity </h1>
 <table align="center">
 <tr algin="center">
  <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
@@ -37,5 +38,5 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/field
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
- <div1><?php echo $humidity?></div1>
- <div2><?php echo $temperature?></div2>
+ <div1> "Hum: <?php echo $humidity?>"</div1>
+ <div2> "Temp: <?php echo $temperature?></div2>
