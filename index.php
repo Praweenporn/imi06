@@ -1,11 +1,10 @@
 <style type="text/css">
   body { background-color: #ffffff; }
   div {
-  background-color: lightblue;
-  padding-top: 90px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  background-color: lightblue;   
+  position: relative;
+  width: 400px;
+  height: 260px;
 }
 </style>
 <body>
