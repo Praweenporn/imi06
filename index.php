@@ -1,11 +1,18 @@
 <style type="text/css">
   body { background-color: #ffffff; }
-  div {
+  div1 {
   background-color: lightblue;   
   position: relative;
   left: 16px;
-  width: 250px;
-  height: 260px;
+  width: 400px;
+  height: 100px;
+ }
+  div1 {
+  background-color: lightblue;   
+  position: relative;
+  left: 405px;
+  width: 400px;
+  height: 100px;
 }
 </style>
 
