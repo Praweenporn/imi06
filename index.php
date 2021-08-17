@@ -11,7 +11,7 @@
   background-color: lightblue; 
   position: relative;
   font-size : 30px;
-  left: 550px;
+  left: 450px;
   top: 50px;
 }
 </style>
@@ -24,7 +24,7 @@
  <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
   <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
     <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show">
-      <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://api.thingspeak.com/channels/1458414/status.json">
+      <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/widgets/348521">
       </iframe></td>
     </tr> 
  </table>
