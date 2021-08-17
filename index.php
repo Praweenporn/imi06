@@ -6,7 +6,7 @@
   width: 420px;
   height: 100px;
   font-size: 40px;
-  left: 180px;
+  left: 80px;
   top: 50px;
  }
   div2 {
@@ -15,7 +15,7 @@
   width: 420px;
   height: 100px;
   font-size : 40px;
-  left: 520px;
+  left: 400px;
   top: 50px;
 }
 </style>
@@ -38,5 +38,5 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/field
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
- <div1> "Hum: <?php echo $humidity?>"</div1>
- <div2> "Temp: <?php echo $temperature?></div2>
+ <div1> Hum: <?php echo $humidity?> %</div1>
+ <div2> Temp: <?php echo $temperature?> C</div2>
