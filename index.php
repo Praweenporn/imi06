@@ -35,4 +35,4 @@ $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/f
 
 ?>
  <div1> <?php echo $humidity?></div1>
-<div1><?php echo $temperature?></div1>
+ <div2><?php echo $temperature?></div2>
