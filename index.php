@@ -24,7 +24,7 @@
 $temperture = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
 $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
- <div> echo $humidity </din>
+ <div> echo $humidity </div>
 
  echo "humidity is =""<br>";
  echo "temperture is = ".$temp;
