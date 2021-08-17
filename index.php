@@ -23,8 +23,8 @@
 
 <?php
 
-$temp = file_get_contents('https://api.thingspeak.com/channels/1458414/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15/last.txt');
-$humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/charts/?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15/last.txt');
+$temp = file_get_contents('https://api.thingspeak.com/channels/1458414/charts/1/last.txt');
+$humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/charts/2/last.txt');
  echo "temperture is = ".$temp;
 
 ?>
