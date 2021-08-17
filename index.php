@@ -2,8 +2,10 @@
   body { background-color: #ffffff; }
   div1 {
   background-color: lightblue;   
+  font-size: 40px;
   position: relative;
   left: 16px;
+  top: 50px;
   width: 400px;
   height: 100px;
  }
@@ -11,6 +13,7 @@
   background-color: lightblue;   
   position: relative;
   left: 405px;
+  top: 50px;
   width: 400px;
   height: 100px;
 }
