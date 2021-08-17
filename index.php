@@ -4,14 +4,14 @@
   background-color: lightblue;   
   font-size: 40px;
   position: relative;
-  left: 55px;
+  left: 80px;
   top: 50px;
  }
   div2 {
   background-color: lightblue;   
   position: relative;
   font-size : 40px;
-  left: 600px;
+  left: 550px;
   top: 50px;
 }
 </style>
@@ -34,5 +34,5 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/field
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
- <div1> <?php echo $humidity?></div1>
+ <div1><?php echo $humidity?></div1>
  <div2><?php echo $temperature?></div2>
