@@ -35,6 +35,6 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/field
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
-<link rel="stylesheet" media="screen" href="/assets/widgets/numeric_display-750e70269d9ad9b471558f0526fcc60bd3c8e4949fd02f8b3994ee7760f548a7.css">
+
  <div1> Hum: <?php echo $humidity?> %</div1>
  <div2> Temp: <?php echo $temperature?> C</div2>
