@@ -3,6 +3,7 @@
   div {
   background-color: lightblue;   
   position: relative;
+  left: 16px;
   width: 400px;
   height: 260px;
 }
@@ -17,7 +18,7 @@
     <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/maps/channel_show"></iframe></td>
     </tr> 
  </table>
-    <div><?php echo $humidity?></div>
+    <div> <?php echo .$humidity?></div>
 </body>
 
 <?php
