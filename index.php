@@ -44,8 +44,7 @@
 
 $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
-$location  = file_get_contents('https://api.thingspeak.com/channels/1458414/8.4953509/98.5139258/last.txt');
 ?>
  <div1> Hum: <?php echo $humidity?> %</div1>
  <div2> Temp: <?php echo $temperature?> C</div2>
- <div3> Location: <?php echo $location?> </div3>
+ <div3> <a href="https://www.google.com/maps/place/8°29'43.3"N+98°30'50.1"E/@8.4953509,98.5139258,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d8.4953509!4d98.5139258"> Location: 8.4953509 98.5139258</a></div3>
