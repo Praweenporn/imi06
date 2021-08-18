@@ -1,6 +1,6 @@
 <script type="text/JavaScript">
   function timedRefresh(15000) {
-  setTimeout("location.reload(true);",timeoutPeriod);
+  setTimeout("location.reload(true);",15000);
   }
 </script>
 <style type="text/css">
