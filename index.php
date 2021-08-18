@@ -23,7 +23,7 @@
 }
 </style>
 
-<body onload="JavaScript:timedRefresh(14000);",onload="startTime()">
+<body onload="JavaScript:timedRefresh(14000);","startTime()">
 <br><h1 align="center">Monitor Temperature & Humidity: Prweenporn Mathurot </h1></br>
 <div id="txt"></div>
 <script type="text/JavaScript">
