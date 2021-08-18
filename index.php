@@ -1,6 +1,6 @@
 <script type="text/JavaScript">
-  function timedRefresh(15000) {
-  setTimeout("location.reload(true);",15000);
+  function timedRefresh(timeoutPeriod) {
+  setTimeout("location.reload(true);",timeoutPeriod);
   }
 </script>
 <style type="text/css">
@@ -21,7 +21,7 @@
 }
 </style>
 
-<body onload="">
+<body onload="JavaScript:timedRefresh(15000);">
 <h1> Prweenporn Mathurot </h1>
 <h1 align="center">Monitor temperature & humidity </h1>
 <table align="center">
