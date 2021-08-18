@@ -25,26 +25,16 @@
 
 <body onload="JavaScript:timedRefresh(14000);","startTime()">
 <br><h1 align="center">Monitor Temperature & Humidity: Prweenporn Mathurot </h1></br>
-<div id="txt"></div>
+<p>Date/Time: <span id="datetime"></span></p>
 <script type="text/JavaScript">
   function timedRefresh(timeoutPeriod) {
   setTimeout("location.reload(true);",timeoutPeriod);
+  var dt = new Date();
+  document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ 
+  (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));  
  }
-  function startTime() {
-  const today = new Date();
-  let h = today.getHours();
-  let m = today.getMinutes();
-  let s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-  setTimeout(startTime, 1000);
- }
-  function checkTime(i) {
-  if (i < 10) {i = "0" + i};  
-  return i;
-}
 </script>
+
 <table align="center">
 <tr algin="center">
  <td align="center"><iframe width="420" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1458414/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></td>
