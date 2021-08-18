@@ -1,3 +1,8 @@
+<script type="text/JavaScript">
+  function timedRefresh(timeoutPeriod) {
+  setTimeout("location.reload(true);",timeoutPeriod);
+  }
+</script>
 <style type="text/css">
   body { background-color: #ffffff; }
   div1 {
@@ -16,7 +21,7 @@
 }
 </style>
 
-<body>
+<body onload="">
 <h1> Prweenporn Mathurot </h1>
 <h1 align="center">Monitor temperature & humidity </h1>
 <table align="center">
@@ -35,6 +40,5 @@ $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/field
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
 
 ?>
-
  <div1> Hum: <?php echo $humidity?> %</div1>
  <div2> Temp: <?php echo $temperature?> C</div2>
