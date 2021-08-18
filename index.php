@@ -24,8 +24,8 @@
 </style>
 
 <body onload="JavaScript:timedRefresh(14000);","startTime()">
-<br><h1 align="center">Monitor Temperature & Humidity: Prweenporn Mathurot </h1></br>
-<p><h2>Current Date and Time is <span id='date-time'></span>.</h2></p>
+<p><h1 align="center">Monitor Temperature & Humidity: Prweenporn Mathurot </h1></p>
+<br><h2 align="center">Current Date and Time is <span id='date-time'></span>.</h2></br>
 <script type="text/JavaScript">
   function timedRefresh(timeoutPeriod) {
   setTimeout("location.reload(true);",timeoutPeriod);
