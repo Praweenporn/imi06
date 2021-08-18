@@ -23,7 +23,7 @@
   background-color: lightblue; 
   position: relative;
   font-size : 30px;
-  left: 800px;
+  left: 650px;
   top: 50px;
 }
 </style>
