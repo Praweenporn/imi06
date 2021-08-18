@@ -23,7 +23,7 @@
   background-color: lightblue; 
   position: relative;
   font-size : 30px;
-  left: 650px;
+  left: 600px;
   top: 50px;
 }
 </style>
@@ -44,7 +44,7 @@
 
 $humidity = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/1/last.txt');
 $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/fields/2/last.txt');
-$location  = file_get_contents('https://api.thingspeak.com/channels/1458414/maps/channel_show/last.txt');
+$location  = file_get_contents('https://api.thingspeak.com/channels/1458414/8.4953509/98.5139258/last.txt');
 ?>
  <div1> Hum: <?php echo $humidity?> %</div1>
  <div2> Temp: <?php echo $temperature?> C</div2>
