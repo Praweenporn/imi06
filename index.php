@@ -25,7 +25,7 @@
 
 <body onload="JavaScript:timedRefresh(14000);","startTime()">
 <br><h1 align="center">Monitor Temperature & Humidity: Prweenporn Mathurot </h1></br>
-<p>Current Date and Time is <span id='date-time'></span>.</p>
+<p><h2>Current Date and Time is <span id='date-time'></span>.</h2></p>
 <script type="text/JavaScript">
   function timedRefresh(timeoutPeriod) {
   setTimeout("location.reload(true);",timeoutPeriod);
