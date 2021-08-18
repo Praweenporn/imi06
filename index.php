@@ -25,13 +25,12 @@
 
 <body onload="JavaScript:timedRefresh(14000);","startTime()">
 <br><h1 align="center">Monitor Temperature & Humidity: Prweenporn Mathurot </h1></br>
-<p>Date/Time: <span id="datetime"></span></p>
+<p>Current Date and Time is <span id='date-time'></span>.</p>
 <script type="text/JavaScript">
   function timedRefresh(timeoutPeriod) {
   setTimeout("location.reload(true);",timeoutPeriod);
   var dt = new Date();
-  document.getElementById("datetime").innerHTML = (("0"+(dt.getMonth()+1)).slice(-2)) +"/"+ (("0"+dt.getDate()).slice(-2)) +"/"+ 
-  (dt.getFullYear()) +" "+ (("0"+dt.getHours()+1).slice(-2)) +":"+ (("0"+dt.getMinutes()+1).slice(-2));  
+  document.getElementById('date-time').innerHTML=dt;
  }
 </script>
 
