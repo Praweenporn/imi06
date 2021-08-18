@@ -9,14 +9,14 @@
   background-color: lightblue;   
   position: relative;
   font-size: 30px;
-  left: 180px;
+  left: 120px;
   top: 50px;
  }
   div2 {
   background-color: lightblue; 
   position: relative;
   font-size : 30px;
-  left: 480px;
+  left: 380px;
   top: 50px;
 }
 </style>
