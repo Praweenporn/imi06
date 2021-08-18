@@ -47,4 +47,4 @@ $temperature  = file_get_contents('https://api.thingspeak.com/channels/1458414/f
 ?>
  <div1> Hum: <?php echo $humidity?> %</div1>
  <div2> Temp: <?php echo $temperature?> C</div2>
- <div3> <a href="https://www.google.com/maps/place/8°29'43.3"N+98°30'50.1"E/@8.4940789,98.5146983,19z/data=!4m5!3m4!1s0x0:0x0!8m2!3d8.4953509!4d98.5139258" > Location: Phang nga</a></div3>
+ <div3> <a href="https://goo.gl/maps/LPdPmFXEhwc5VgXw9"> Location: Phang nga</a></div3>
