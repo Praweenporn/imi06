@@ -48,4 +48,4 @@ $location  = file_get_contents('https://api.thingspeak.com/channels/1458414/maps
 ?>
  <div1> Hum: <?php echo $humidity?> %</div1>
  <div2> Temp: <?php echo $temperature?> C</div2>
- <div2> Location: <?php echo $location?> </div2>
+ <div3> Location: <?php echo $location?> </div3>
